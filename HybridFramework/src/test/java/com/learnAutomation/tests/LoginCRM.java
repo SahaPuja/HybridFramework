@@ -24,8 +24,7 @@ public class LoginCRM extends BaseClass{
 		
 		loginPageObj.loginToCRM(excel.getStringData(0, 0, 0), excel.getStringData(0, 0, 1));
 		//helper.captureScreenshot(driver);
-		test.log(LogStatus.PASS, "Logged in Successfully");
-				
+		test.log(LogStatus.PASS, "Logged in Successfully");		
 	}
 
 }

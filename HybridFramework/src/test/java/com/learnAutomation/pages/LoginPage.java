@@ -11,6 +11,7 @@ public class LoginPage {
 	 this.driver=driver;
 	}
 	
+	
 	@FindBy(name="email")
 	WebElement username;
 	
@@ -26,4 +27,5 @@ public class LoginPage {
 		password.sendKeys(passwordApp);
 		loginBtn.click();
 	}
+	
 }
