@@ -14,7 +14,7 @@ import com.relevantcodes.extentreports.LogStatus;
 
 public class LoginCRM extends BaseClass{
 	
-	
+	//This test is created by Puja
 	@Test
 	public void loginApp()
 	{
